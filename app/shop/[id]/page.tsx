@@ -7,23 +7,23 @@ import Link from 'next/link';
 import  ShoppingCart  from '../components/shoppingCart';
 
 type Product = {
-  id: number;
+  id:number;
   name: string;
   price: number;
   description?: string;
   category?: string;
   image_url: string;
+
 };
 
-
-
 export default function ProductDetail() {
-    const { id } = useParams();
-    const router = useRouter();
-    const { addToCart } = useCart();
-    const [product, setProduct] = useState<Product | null>(null);
-    const [reviews, setReviews] = useState<any[]>([]);
-    const [loading, setLoading] = useState(true);
+  const { id} = useParams();
+  const router = useRouter();
+  const { addToCart} = useCart();
+  const [product, setProduct] = useState<Product | null>(null);
+  const [reviews, setReviews] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+    
 
   
     useEffect(() => {
