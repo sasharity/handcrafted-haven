@@ -10,6 +10,3 @@
 ### Technologies:
 1. Front-End: HTML, CSS, JavaScript, TypeScript, Next.js
 2. Back-End: Node.js
-3. Deployment/ Cloud Platform: Vercel
-
-
