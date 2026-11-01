@@ -1,6 +1,6 @@
 # handcrafted-haven
 
-## This is the group project for WDD 430 Full-Stack Development
+## This is a project for Full-Stack Development
 
 ### Title: Handcrafted Haven
 
@@ -12,11 +12,4 @@
 2. Back-End: Node.js
 3. Deployment/ Cloud Platform: Vercel
 
-### Team Members:
-1. Kevin Hernandez
-2. Anderson Komi Havah
-3. Benedict Ogbonna Nwanze
-4. Iruoghene Omarayeirue
-5. Bhekimpilo Ncube
-6. Treasure Blossom Tambwanaye
-7. Roscent Nkemjika Ofuonye# handcrafted-haven
+
