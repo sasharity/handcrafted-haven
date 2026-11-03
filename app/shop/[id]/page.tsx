@@ -18,7 +18,6 @@ type Product = {
 export default function ProductDetail() {
   const { id} = useParams();
   const router = useRouter();
-  g
   const [product, setProduct] = useState<Product | null>(null);
   const [reviews, setReviews] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
