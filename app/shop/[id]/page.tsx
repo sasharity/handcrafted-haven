@@ -1,5 +1,4 @@
 'use client';
-import { useCart } from '../components/cartProvider';
 import { useParams, useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
@@ -19,7 +18,7 @@ type Product = {
 export default function ProductDetail() {
   const { id} = useParams();
   const router = useRouter();
-  const { addToCart} = useCart();
+  g
   const [product, setProduct] = useState<Product | null>(null);
   const [reviews, setReviews] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
@@ -89,9 +88,6 @@ if (!product) {
         <div>
           <h1 className="text-4xl font-bold text-[#6F1D1B]">{product.name}</h1>
           <p className="text-3xl font-bold mt-4">${product.price}</p>
-          <button onClick={() => addToCart(product)} className="mt-6 w-full bg-[#6F1D1B] text-white py-4 hover:bg-[#df716f] active:scale-95 rounded-xl">
-            Add To Cart
-                  </button>
                   
         </div>
       </div>

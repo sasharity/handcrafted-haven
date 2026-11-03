@@ -1,6 +1,6 @@
 # handcrafted-haven
 
-## This is a project for Full-Stack Development
+## This is the group project for WDD 430 Full-Stack Development
 
 ### Title: Handcrafted Haven
 
@@ -10,3 +10,7 @@
 ### Technologies:
 1. Front-End: HTML, CSS, JavaScript, TypeScript, Next.js
 2. Back-End: Node.js
+3. Deployment/ Cloud Platform: Vercel
+
+
+
